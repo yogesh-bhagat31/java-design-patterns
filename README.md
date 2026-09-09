@@ -2,8 +2,6 @@
 
 A structured, hands-on journey through the **23 Gang of Four (GoF) Design Patterns**, implemented in **Java**, built while preparing for SDE roles at product-based companies.
 
-This repo documents my learning as I work through **Head First Design Patterns** (book) alongside a **Udemy Design Patterns & LLD course**, with clean code implementations, real-world use cases, and my own notes for each pattern.
-
 ---
 
 ## 🎯 Why this repo exists
@@ -11,17 +9,6 @@ This repo documents my learning as I work through **Head First Design Patterns**
 - Build a **strong LLD (Low-Level Design) foundation** — essential for SDE interviews at companies like Google, Amazon, Swiggy, and Mastercard.
 - Move beyond memorizing UML diagrams — actually *understand* the problem each pattern solves.
 - Create a **public reference** I (and others) can revisit before interviews.
-
----
-
-## 📚 Learning Approach
-
-Each pattern in this repo follows the same process:
-
-1. **Read** the concept from *Head First Design Patterns* (intuition + "why" first)
-2. **Watch** the corresponding Udemy lecture for reinforcement and code walkthroughs
-3. **Implement** the pattern from scratch in Java with a realistic example
-4. **Document** the problem it solves, trade-offs, and when *not* to use it
 
 ---
 
@@ -120,10 +107,6 @@ Each pattern folder contains:
 ---
 
 ## 📖 References
-
-- *Head First Design Patterns* (2nd Edition) — Freeman & Robson
-- Udemy: Design Patterns & Low-Level Design course
-- [Refactoring.Guru](https://refactoring.guru/design-patterns) — for quick visual reference
 
 ---
 
