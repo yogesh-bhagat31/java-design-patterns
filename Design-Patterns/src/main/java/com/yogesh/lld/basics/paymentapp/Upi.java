@@ -1,4 +1,4 @@
-package com.yogesh.lld.paymentapp;
+package com.yogesh.lld.basics.paymentapp;
 
 public class Upi implements PaymentMethod {
 
