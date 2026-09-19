@@ -33,7 +33,7 @@ public class OrderService {
      * Hardcoded, concrete dependency — violates DIP by binding directly
      * to a low-level implementation instead of an abstraction.
      */
-    private MYSQLDatabase database = new MYSQLDatabase();
+    private MySQLDatabase database = new MySQLDatabase();
 
 
     /**
