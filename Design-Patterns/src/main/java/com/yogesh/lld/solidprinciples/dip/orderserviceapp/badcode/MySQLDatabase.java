@@ -7,7 +7,7 @@ package com.yogesh.lld.solidprinciples.dip.orderserviceapp.badcode;
  * persistence (MySQL in this case). It exposes no abstraction — callers
  * must depend on this exact class to use it.
  */
-public class MYSQLDatabase {
+public class MySQLDatabase {
 
     /**
      * Persists the given data directly to a MySQL data store.
