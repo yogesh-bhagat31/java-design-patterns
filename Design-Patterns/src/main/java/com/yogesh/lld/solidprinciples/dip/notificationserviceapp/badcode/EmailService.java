@@ -1,4 +1,4 @@
-package com.yogesh.lld.solidprinciples.dip.badcode;
+package com.yogesh.lld.solidprinciples.dip.notificationserviceapp.badcode;
 
 public class EmailService {
 
