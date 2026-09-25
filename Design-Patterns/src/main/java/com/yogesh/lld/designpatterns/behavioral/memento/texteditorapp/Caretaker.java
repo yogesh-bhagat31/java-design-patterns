@@ -1,4 +1,4 @@
-package com.yogesh.lld.designpatterns.behavioral.memento;
+package com.yogesh.lld.designpatterns.behavioral.memento.texteditorapp;
 
 import java.util.Stack;
 
