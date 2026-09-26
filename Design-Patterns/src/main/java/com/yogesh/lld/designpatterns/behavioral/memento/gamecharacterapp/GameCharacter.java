@@ -7,7 +7,7 @@ public class GameCharacter {
     private int level;
     private int x, y; // position coordinates
 
-    public GameCharacter(String name, int health, int mana, int level, int x, int y) {
+    public GameCharacter(String name) {
         this.name = name;
         this.health = 100;
         this.mana = 50;
@@ -40,6 +40,11 @@ public class GameCharacter {
         this.mana = 50;
     }
 
+    public void moveTo(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
     public void showStatus() {
         System.out.println("Name: " + this.name);
         System.out.println("Health: " + this.health);
@@ -47,7 +52,7 @@ public class GameCharacter {
         System.out.println("Level: " + this.level);
         System.out.println("X: " + this.x);
         System.out.println("Y: " + this.y);
-        System.out.println("=====================================");
+
     }
 
     public static class Checkpoint {
@@ -105,5 +110,18 @@ public class GameCharacter {
         public long getTimeStamp() {
             return timeStamp;
         }
+    }
+
+    public Checkpoint save(){
+        return  new Checkpoint(health,mana,level,x,y);
+    }
+
+
+    public void restore(Checkpoint checkpoint){
+        this.health = checkpoint.getHealth();
+        this.mana = checkpoint.getMana();
+        this.level = checkpoint.getLevel();
+        this.x = checkpoint.getX();
+        this.y = checkpoint.getY();
     }
 }
