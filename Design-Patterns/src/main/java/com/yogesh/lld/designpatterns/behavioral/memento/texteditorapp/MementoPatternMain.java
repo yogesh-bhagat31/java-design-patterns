@@ -18,7 +18,7 @@ public class MementoPatternMain {
         caretaker.save(editor);
         editor.showCurrentState();
 
-        System.out.println("************************");
+        System.out.println("**********************");
         //Oops! I added exntra content
         editor.write(" Extra text.");
         editor.showCurrentState();
