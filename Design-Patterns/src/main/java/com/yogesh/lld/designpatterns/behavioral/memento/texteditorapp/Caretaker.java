@@ -9,16 +9,16 @@ public class Caretaker {
 
     public void save(TextEditor editor) {
         history.push(editor.save());
-        System.out.println("******* State saved *******");
+        System.out.println("******** State saved ********");
     }
 
     public void undo(TextEditor editor) {
         if (!history.isEmpty()) {
             TextEditor.Memento memento = history.pop();
             editor.restore(memento);
-            System.out.println("******* Undo performed *******");
+            System.out.println("******** Undo performed ********");
         } else {
-            System.out.println("******* Nothing to undo *******");
+            System.out.println("******** Nothing to undo ********");
         }
     }
 
